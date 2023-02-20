@@ -33,32 +33,91 @@ ul {
 }
 .menu {
     display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.phone {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
 }
 .menu_item {
     padding-right: 30px;
 }
+.headline {
+    background-color: #F5F5F7;
+    text-align: center;
+    padding: 70px 0 40px;
+}
+.title {
+    text-transform: uppercase;
+    margin: 0 0 40px; /*внегласное правило отступа снизу от будущего контента*/
+    color: #490E84;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+.headline_img {
+    margin-bottom: 25px;
+}
+.headline_btn {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #490E84;
+    padding: 22px 117px 19px;
+    border-radius: 30px;
+}
+.new {
+    padding: 90px 0 150px;
+}
+.new_title, .color_title {
+    margin: 0 0 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #717171;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+}
+.new_info {
+    display: flex;
+    align-items: center;
+}
+.new_text p {
+    max-width: 560px;
+    margin: 0 0 30px;
+}
+.new_text b {
+    max-width: 560px;
+    font-size: 20px;
+    line-height: 26px;
+    display: block;
+}
+.images_new {
+    margin-left: 190px;
+}
+.color {
+    padding-bottom: 150px;
+}
+.color_list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.color_item img {
+    margin-bottom: 20px;
+}
+.color_item h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 10px;
+}
+.color_item p {
+    margin: 0;
+}
 
-/*h1 {
-	color: #490e84;
-	font-weight: 700;
-	font-size: 64px;
-	line-height: 77px;
-}
-.Choise_div {
-	background-color: #490e84;
-	border-radius: 30px;
-	width: 350px;
-	height: 70px;
-	text-align: center;
-	margin: 25px 42% 40px 42%;
-}
-.choise2 {
-	padding-top: 6.5%;
-}
-.Choise {
-	text-decoration: none;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 29px;
-	color: #ffffff;
-}*/
+
